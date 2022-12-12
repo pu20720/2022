@@ -8,9 +8,13 @@
 * 第二次開會紀錄.pdf
 ## 畢業專題計畫書：
 * 畢業專題計畫書.pdf
-## 成果報告書：輸入成果報告書電子檔的檔名
-## 程式：輸入程式電子檔的檔名
+## 成果報告書：
+* 成果報告書.pdf
+## 程式：
+* program.7z
 ## 簡報：輸入介紹專題PPT簡報檔的檔名
-## 海報：輸入海報電子檔的檔名
-## 介紹影片：[:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=)
+## 海報：
+* B01-咖啡生豆深度辨識.jpg
+## 介紹影片
+* [:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=)
 

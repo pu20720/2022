@@ -12,5 +12,5 @@
 ## 程式：輸入程式電子檔的檔名
 ## 簡報：輸入介紹專題PPT簡報檔的檔名
 ## 海報：輸入海報電子檔的檔名
-## 介紹影片：[:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=DDaxG98BG3I)
+## 介紹影片：[:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=)
 

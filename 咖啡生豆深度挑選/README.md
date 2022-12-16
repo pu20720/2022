@@ -17,5 +17,5 @@
 ## 海報：
 * B01-咖啡生豆深度辨識.jpg
 ## 介紹影片
-* [:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=)
+* [:arrow_right: YouTube Link :arrow_left:](https://www.youtube.com/watch?v=27RcKYaOSTM)
 

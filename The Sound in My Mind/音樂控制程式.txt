@@ -1,0 +1,63 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class musicController : MonoBehaviour
+{
+    public Material M;
+    public Texture N;
+    public int x = 0;
+    AudioSource music;
+    // Start is called before the first frame update
+    void Start()
+    {
+        music = GetComponent<AudioSource>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if(M.GetTexture("_MainTex") == N || M.GetTexture("_MainTex2") == N){
+            if(x == 0){
+                if(Input.GetMouseButtonDown(0)){
+                    if(Physics.Raycast(ray,out hit)){
+                        if(hit.collider.gameObject.name == "radio"){
+                            music.enabled = true;
+                            x = 1;
+                        }
+                    }
+                }
+            }else if(x == 1){
+                if(Input.GetMouseButtonDown(0)){
+                    if(Physics.Raycast(ray,out hit)){
+                        if(hit.collider.gameObject.name == "radio"){
+                            music.enabled = false;
+                            x = 1;
+                        }
+                    }
+                }
+            }
+        }else{
+            music.enabled = false;
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other){
+        print(other.gameObject.name);
+        if(x == 0){
+            if(other.gameObject.name == "bullet(Clone)"){
+                music.enabled = true;
+                x = 1;
+            }
+        }else if(x == 1){
+            if(other.gameObject.name == "bullet(Clone)"){
+                music.enabled = false;
+                x = 0;
+            }
+        }
+
+    }
+}
